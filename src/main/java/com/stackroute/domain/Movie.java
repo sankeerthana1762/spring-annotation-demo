@@ -1,7 +1,10 @@
 package com.stackroute.domain;
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class Movie {
     private Actor actor;
+
 
     public Movie() {
     }
