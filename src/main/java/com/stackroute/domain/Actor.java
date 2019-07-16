@@ -5,13 +5,8 @@ import org.springframework.beans.factory.annotation.Value;
 
 public class Actor {
 
-    @Value("prabhas")
     private String name;
-
-    @Value("male")
     private String gender;
-
-    @Value("37")
     private int age;
 
     public Actor(String name, String gender, int age) {

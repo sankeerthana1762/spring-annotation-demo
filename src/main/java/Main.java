@@ -8,8 +8,10 @@ public class Main {
     {
         ApplicationContext context = new AnnotationConfigApplicationContext(ConfigurationClass.class);
 
-        Movie movie = context.getBean("movieObj1",Movie.class);
+        Movie movie = context.getBean("movieObj",Movie.class);
         movie.display();
 
+        Movie movie1 = context.getBean("movieObj1",Movie.class);
+        movie1.display();
     }
 }
