@@ -1,5 +1,6 @@
 import com.stackroute.domain.Actor;
 import com.stackroute.domain.BeanLifecycleDemoBean;
+import com.stackroute.domain.BeanPostProcessorDemoBean;
 import com.stackroute.domain.Movie;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
@@ -21,9 +22,9 @@ public class ConfigurationClass{
         return new Actor("sivakarthikeyan","male",30);
     }
 
-    @Bean(initMethod = "customInit", destroyMethod = "customDestroy")
-    public BeanLifecycleDemoBean beanLifeCycle() {
-        return new BeanLifecycleDemoBean();
+    @Bean
+    public BeanPostProcessorDemoBean beanPostProcessorDemo(){
+        return new BeanPostProcessorDemoBean();
     }
 
   }

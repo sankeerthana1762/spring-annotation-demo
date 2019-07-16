@@ -4,7 +4,6 @@ package com.stackroute.domain;
 import org.springframework.beans.factory.annotation.Value;
 
 public class Actor {
-
     private String name;
     private String gender;
     private int age;
@@ -26,4 +25,4 @@ public class Actor {
     public int getAge() {
         return age;
     }
-}
+    }
