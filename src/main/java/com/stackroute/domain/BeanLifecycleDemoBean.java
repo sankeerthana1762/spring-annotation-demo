@@ -4,7 +4,7 @@ import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
 public class BeanLifecycleDemoBean implements DisposableBean, InitializingBean {
-
+   //implementing DisposableBean,InitializingBean Interfaces
     @Override
     public void afterPropertiesSet() throws Exception {
         System.out.println("Inside afterPropertiesSet method");
