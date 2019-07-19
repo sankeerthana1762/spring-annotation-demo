@@ -2,7 +2,7 @@
 package com.stackroute.domain;
 
 import org.springframework.beans.factory.annotation.Value;
-
+//Actor class with getters and constructor methods
 public class Actor {
     private String name;
     private String gender;
