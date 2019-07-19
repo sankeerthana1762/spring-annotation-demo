@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 
 public class Movie {
     private Actor actor;
-
+    //Movie class with setter method
 
     public Movie() {
     }
