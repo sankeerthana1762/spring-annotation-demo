@@ -7,18 +7,20 @@ import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class ConfigurationClass{
-
+    //creating object for Movie class
     @Bean(name = {"movieObj1", "movieObject"})
     public Movie movieBean (){
         Movie movie = new Movie(actorObj1());
         return movie;
     }
+        //creating object for Movie class
 
     @Bean
     public Movie movieObj2 (){
         Movie movie = new Movie(actorObj2());
         return movie;
     }
+        //creating object for Movie class
 
     @Bean
     @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
