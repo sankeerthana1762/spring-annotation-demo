@@ -1,6 +1,7 @@
 package com.stackroute.domain;
 
 public class Movie {
+    //movie class with setter methods
     private Actor actor;
 
     public Movie() {
