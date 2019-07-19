@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
 public class Movie {
-
+   //Movie class with getterrs and setter methods
 
     private Actor actorObj;
 
