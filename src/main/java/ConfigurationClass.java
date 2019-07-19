@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class ConfigurationClass{
-
+   //Movie Beans
     @Bean(name = {"movieObj1", "movieObject"})
     public Movie movieBean (){
         Movie movie = new Movie(actorObj1());
