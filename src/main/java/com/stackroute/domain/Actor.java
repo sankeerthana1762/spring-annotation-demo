@@ -4,7 +4,7 @@ package com.stackroute.domain;
 import org.springframework.beans.factory.annotation.Value;
 
 public class Actor {
-
+//Actor class with getter methods
     @Value("prabhas")
     private String name;
 
