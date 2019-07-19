@@ -9,12 +9,12 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
 public class Movie implements ApplicationContextAware, BeanFactoryAware, BeanNameAware {
-
+    //Movie class with getters and constructor methods
     private Actor actorObj;
 
     public Movie() {
     }
-
+     
     public Movie(Actor actorObj) {
         this.actorObj = actorObj;
     }
